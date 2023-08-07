@@ -5,7 +5,7 @@
 }
 
 .hero, .header {
-  background-color: #BE3E82;
+  background-color: #23395B;
   color: white;
   padding: 15px 300px 50px 300px;
   display: flex;
@@ -55,10 +55,12 @@ h2 {
 
 .left {
   font-size: 18px;
+  height: 30px;
+  width: auto;
 }
 
 button {
-  background-color: #F56476;
+  background-color: #5EB1BF;
   color: white;
   border-radius: 10px;
   padding: 5px 15px;
@@ -77,6 +79,7 @@ button {
 .hero-right {
   border-radius: 20px;
   max-width: 500px;
+  border: solid 1px #B9E3C6;
 }
 
 .hero-left p {
@@ -86,4 +89,44 @@ button {
 .four-portraits {
   text-align: center;
   display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.container img {
+  width: 300px;
+  height: auto;
+  outline: solid #F56476 2px;
+  border-radius: 10px;
+  gap: 20px;
+}
+
+.container p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.quote {
+  background-color: #EBD0BC;
+  padding: 100px 300px;
+}
+
+.quote p {
+  text-align: right;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.quote h3 {
+  font-weight: 50;
+  font-size: 30px;
+  font-style: italic;
+}
+
+.footer {
+  background-color: #23395B;
+  color: whitesmoke;
+  text-align: center;
+  padding: 20px;
 }

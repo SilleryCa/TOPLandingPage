@@ -66,6 +66,7 @@ button {
   padding: 5px 15px;
   font-weight: 600;
   font-size: 18px;
+  border: solid #B9E3C6 1.5px;
 }
 
 .hero-left {
@@ -129,4 +130,24 @@ button {
   color: whitesmoke;
   text-align: center;
   padding: 20px;
+}
+
+.blue-box {
+  background-color: #5EB1BF;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px;
+  border-radius: 20px;
+  margin: 100px 200px;
+}
+
+.blue-box h4 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.blue-box button {
+  align-self: center;
+  margin-right: 50px;
 }
